@@ -1,0 +1,75 @@
+## Build artifacts
+bin/
+obj/
+out/
+[Ll]og/
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+## Dotnet-specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+.vs/
+
+## Rider
+.idea/
+*.sln.iml
+
+## VS Code
+.vscode/
+.history/
+
+## Visual Studio for Mac
+.vscode/
+*.pidb
+*.userprefs
+*.csproj.user
+.DS_Store
+
+## Resharper
+_ReSharper*/
+*.DotSettings.user
+
+## .NET Core
+*.db
+*.pdb
+*.mdb
+*.cache
+*.log
+*.bak
+*.vspscc
+*.vssscc
+
+# Nuke build
+.nuke/
+
+# JetBrains Cache (IDEA, Rider)
+.idea/
+
+# Local secrets and config
+secrets.json
+appsettings.Development.json
+
+# Others
+*.nupkg
+*.snupkg
+*.tgz
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+*.trx
+*.testlog
+
+# Publish output
+publish/
